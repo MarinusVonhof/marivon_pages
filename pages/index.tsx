@@ -1,5 +1,5 @@
 import Image from 'next/image' // Gebruik image-optimization (bereik 100% performance op Lighthouse)
-import imgLogo from '/img/marivon_logo_300x125.webp' // gebruik module node-image
+import imgLogo from '../public/img/marivon_logo_300x125.webp' // gebruik module node-image
 import { Form, Card, Dropdown, Alert, Button, ButtonGroup, OverlayTrigger, Tooltip } from 'react-bootstrap'
 
 export default function Home() {
