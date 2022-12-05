@@ -1,0 +1,175 @@
+// Custom.scss
+
+@font-face {
+    src: url("./exljbris - MuseoSans-100.otf") format("opentype"); // thin
+    font-family: MuseoSans;
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    src: url("./exljbris - MuseoSans-300.otf") format("opentype"); // extra light
+    font-family: MuseoSans;
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    src: url("./exljbris - MuseoSans-500.otf") format("opentype"); // medium
+    font-family: MuseoSans;
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    src: url("./exljbris - MuseoSans-700.otf") format("opentype"); // bold
+    font-family: MuseoSans;
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    src: url("./exljbris - MuseoSans-900.otf") format("opentype"); // black (heavy)
+    font-family: MuseoSans;
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    src: url("./exljbris - MuseoSans-100Italic.otf") format("opentype");
+    font-family: MuseoSans;
+    font-style: italic;
+    font-weight: 100;
+}
+
+@font-face {
+    src: url("./exljbris - MuseoSans-300Italic.otf") format("opentype");
+    font-family: MuseoSans;
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    src: url("./exljbris - MuseoSans-500Italic.otf") format("opentype");
+    font-family: MuseoSans;
+    font-style: italic;
+    font-weight: 500;
+}
+
+@font-face {
+    src: url("./exljbris - MuseoSans-700Italic.otf") format("opentype");
+    font-family: MuseoSans;
+    font-style: italic;
+    font-weight: bold;
+}
+
+@font-face {
+    src: url("./exljbris - MuseoSans-900Italic.otf") format("opentype");
+    font-family: MuseoSans;
+    font-style: italic;
+    font-weight: 900;
+}
+
+$font-marivon: MuseoSans, sans-serif, Arial;
+$font-family-base: $font-marivon; // Bootstrap variabele instellen op marIvon
+$c_marivon_b: #4674C5; // marivon-blauw
+$c_header_b: #B1CFD9; // blauw uit header-image
+$c_header_lb: #BDD7E3; // lichtblauw uit header-image
+$c_header_db: #9DBBC5; // donkerblauw uit header-image
+
+// Option A: Include all of Bootstrap (de defaults)
+@import "bootstrap/scss/bootstrap";
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .1 /* .4 */
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .1 /* .4 */
+    }
+    to {
+        opacity: 1
+    }
+}
+
+a.inherit {
+    color: inherit;
+    /*text-decoration: underline;*/
+    font-style: italic;
+}
+
+a.inherit:hover {
+    color: initial;
+    /*text-decoration: initial;*/
+}
+
+a.content {
+    outline: none;
+    color: black;
+    text-decoration: none;
+}
+a.content:hover {
+    color: #009FDE; /* crow blauw */
+    text-decoration: none;
+}
+a.footer {
+   font-weight: bold;
+   color: black;
+   text-decoration: none;
+}
+a.doc {
+    /* font-weight: bold;arial; */
+   color: white;
+}
+a.doc:hover {
+    color: initial;
+}
+.bc_card_header {
+    background-color: $c_marivon_b;
+}
+.bc_footer {
+    background-color: $c_header_b;
+}
+.bc_grijs {
+    background-color: #EFEFEF;
+}
+.bc_wit {
+    background-color: #FAFAFA;
+}
+.img_homeHead_bg {
+    background-image: url("../public/img/homehead_bg.webp");
+    background-size: 100% 100%;
+    color: black;
+}
+.img_databases_bg {
+    background-image: url("../public/img/databases_bg.webp");
+    background-size: 100% 100%;
+    color: white;
+}
+.img_toepassingen_bg {
+    background-image: url("../public/img/toepassingen_bg.webp");
+    background-size: 100% 100%;
+    color: white;
+}
+.img_applicaties_bg {
+    background-image: url("../public/img/applicaties_bg.webp");
+    background-size: 100% 100%;
+    color: white;
+}
+footer {
+    float: right; /* left veroorzaakt horizontale scroll */
+    clear: both;
+    width: 100%;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    background-color: gray;
+    font-size: 80%;
+}

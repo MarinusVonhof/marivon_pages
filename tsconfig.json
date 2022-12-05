@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": "."
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+//    "../miscFunc/miscFunc.ts",
+    "components/InputControl.js",
+  ],
+  "exclude": [
+    "node_modules",
+    "archief"
+  ],
+  "typedocOptions": {
+    "entryPoints": [
+      "pages/api",
+      "custom_modules"
+    ],
+    "out": "./public/out_typedoc/",
+    "theme": "node_modules/typedoc-neo-theme/bin/default",
+    "highlightTheme": "dark-plus",
+    "source": [
+      {
+        //"path": "https://github.com/Sweco-NL/Obsurv-StedelijkWater/tree/main/",
+        "line": "L"
+      }
+    ]
+  }
+}
