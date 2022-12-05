@@ -17,20 +17,21 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "baseUrl": "."
+    "baseUrl": ".",
+    "incremental": true
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-//    "../miscFunc/miscFunc.ts",
-    "components/InputControl.js",
+    //    "../miscFunc/miscFunc.ts",
+    "components/InputControl.js"
   ],
   "exclude": [
     "node_modules",
     "archief"
-  ],
-  "typedocOptions": {
+  ]
+  /*"typedocOptions": {
     "entryPoints": [
       "pages/api",
       "custom_modules"
@@ -44,5 +45,5 @@
         "line": "L"
       }
     ]
-  }
+  }*/
 }

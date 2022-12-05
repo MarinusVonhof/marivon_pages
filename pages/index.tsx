@@ -55,7 +55,7 @@ export default function Home() {
         <div className="row col-lg-8 col-12 mx-auto">
          <div className="col-lg-8 col-12 mx-auto mt-5">
             <strong><i>Welkom</i></strong><br/>
-            Met mijn bedrijf marIvon werk ik vooral aan ontwerp, bouw en beheer van linked-data-structuren.
+            Mijn bedrijf marIvon werkt vooral aan ontwerp, bouw en beheer van linked-data-structuren.
             De opbouw en inhoud daarvan maak ik toegankelijk met de ontwikkeling van websites en webapplicaties.<br />
            <i>Marinus Vonhof</i> {/* <i><div className="row justify-content-center">Marinus Vonhof</div></i> */ }
         </div></div>
