@@ -1,7 +1,7 @@
 import Image from 'next/image' // Gebruik image-optimization (bereik 100% performance op Lighthouse)
 
 // Deze werkte niet bij publiceren via Vercel of Render: "module niet gevonden" (.webp bestand)
-//import imgLogo from '../public/marivon_logo_300x125.webp' // gebruik module node-image
+import imgLogo from '/marivon-logo.webp' // gebruik module node-image
 
 import { Form, Card, Dropdown, Alert, Button, ButtonGroup, OverlayTrigger, Tooltip } from 'react-bootstrap'
 
@@ -13,9 +13,9 @@ export default function Home() {
         <div className="container-fluid img_homeHead_bg"> 
           <div className="row pt-5">
             <div className="col-lg-8 col-12 mx-auto text-center">
-              {/*<Image src={imgLogo} alt="" />*/}
+              <Image src={imgLogo} alt="" />
               {/*<Image src="/marivon_logo_300x125.png" alt="marivon logo2" width={300} height={125} />*/}
-              <Image src="/marivon_logo.webp" alt="marivon logo" width={300} height={125} />
+              {/*<Image src="/marivon-logo.webp" alt="marivon logo" width={300} height={125} />*/}
               <h4 className="my-3"><strong>Ontwerpen en toepassen van databases in het semantisch web</strong></h4>
             </div>
           </div>
