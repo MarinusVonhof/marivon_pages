@@ -64,7 +64,7 @@ export default function Home() {
         </div></div>
       </main >
       <footer className="bc_footer" style={{ minHeight: "10vh" }}>
-        Mail: <a className="footer" href="mailto:marinus.vonhof@marivon.nl">marIvon</a><br />Telefoon: +31 622 466 366<br /><br /><i>door marIvon, 8 maart 2022</i>
+        Mail: <a className="footer" href="mailto:marinus.vonhof@marivon.nl">marIvon</a><br />Telefoon: +31 622 466 366<br /><br /><i>door marIvon, 7 december 2022</i>
       </footer>
 
     </div >
