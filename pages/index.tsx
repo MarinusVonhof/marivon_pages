@@ -10,7 +10,7 @@ export default function Home() {
     <div>
 
       <main className="pb-5" style={{ minHeight: "90vh" }}>
-        <div className="container-fluid img_homeHead_bg">
+        <div className="container-fluid img_homeHead_bg"> 
           <div className="row pt-5">
             <div className="col-lg-8 col-12 mx-auto text-center">
               {/*<Image src={imgLogo} alt="" />*/}
