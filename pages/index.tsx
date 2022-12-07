@@ -2,7 +2,7 @@ import Image from 'next/image' // Gebruik image-optimization (bereik 100% perfor
 
 // Deze werkte niet bij publiceren via Vercel of Render: "module niet gevonden" (.webp bestand)
 //import imgLogo from '../public/marivon_logo_300x125.webp' // gebruik module node-image
-import imgLogo from '/img/marivon_logo_300x125.webp' // gebruik module node-image
+import imgLogo from './marivon_logo_300x125.webp' // gebruik module node-image
 
 import { Form, Card, Dropdown, Alert, Button, ButtonGroup, OverlayTrigger, Tooltip } from 'react-bootstrap'
 
