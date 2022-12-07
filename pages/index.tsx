@@ -14,7 +14,7 @@ export default function Home() {
           <div className="row pt-5">
             <div className="col-lg-8 col-12 mx-auto text-center">
               {/*<Image src={imgLogo} alt="" />*/}
-              <Image src="/marivon_logo_300x125.png" alt="marivon logo" width={300} height={125} />
+              <Image src="/marivon_logo_300x125.png" alt="marivon logo2" width={300} height={125} />
               <h4 className="my-3"><strong>Ontwerpen en toepassen van databases in het semantisch web</strong></h4>
             </div>
           </div>
