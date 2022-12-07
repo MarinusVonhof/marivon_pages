@@ -1,5 +1,5 @@
 import Image from 'next/image' // Gebruik image-optimization (bereik 100% performance op Lighthouse)
-import imgLogo from '../public/marivon_logo_300.webp' // gebruik module node-image
+//import imgLogo from '../public/marivon_logo_300.webp' // gebruik module node-image
 import { Form, Card, Dropdown, Alert, Button, ButtonGroup, OverlayTrigger, Tooltip } from 'react-bootstrap'
 
 export default function Home() {
@@ -10,7 +10,8 @@ export default function Home() {
         <div className="container-fluid img_homeHead_bg">
           <div className="row pt-5">
             <div className="col-lg-8 col-12 mx-auto text-center">
-              <Image src={imgLogo} alt="" />
+              {/*<Image src={imgLogo} alt="" />*/}
+              <Image src="/marivon_logo_300.webp" alt="" width="500" height="200" />
               <h4 className="my-3"><strong>Ontwerpen en toepassen van databases in het semantisch web</strong></h4>
             </div>
           </div>
