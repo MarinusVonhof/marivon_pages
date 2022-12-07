@@ -1,7 +1,7 @@
 import Image from 'next/image' // Gebruik image-optimization (bereik 100% performance op Lighthouse)
 
 // Deze werkte niet bij publiceren via Vercel of Render: "module niet gevonden" (.webp bestand)
-import imgLogo from '/marivon.webp' // gebruik module node-image
+import imgLogo from '../public/marivon.webp' // gebruik module node-image
 
 import { Form, Card, Dropdown, Alert, Button, ButtonGroup, OverlayTrigger, Tooltip } from 'react-bootstrap'
 
